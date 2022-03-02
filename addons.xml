@@ -7,6 +7,16 @@
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.glive/master/</datadir>
     </dir>   
+    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/Mariusz89B/mods-kodi/master/mods-kodi-addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Mariusz89B/mods-kodi/master/mods-kodi-addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Mariusz89B/mods-kodi/raw/master/</datadir>
+	</dir>
+    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
+	</dir>
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>A collection of Free-IPTV Add-ons</summary>
