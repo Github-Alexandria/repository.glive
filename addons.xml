@@ -12,11 +12,11 @@
 		<checksum>https://raw.githubusercontent.com/Mariusz89B/mods-kodi/master/mods-kodi-addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/Mariusz89B/mods-kodi/raw/master/</datadir>
 	</dir>
-    <dir>
-		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
-	</dir>
+    <dir minversion="19.0.0">
+        <info compressed="false">https://raw.githubusercontent.com/centry7/centry7.github.io/main/matrix/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/centry7/centry7.github.io/main/matrix/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/centry7/centry7.github.io/main/matrix/zips/</datadir>
+    </dir>
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>A collection of Free-IPTV Add-ons</summary>
@@ -54,6 +54,51 @@
 			<clearlogo></clearlogo>
 			<screenshot></screenshot>
 		</assets>
+	</extension>
+</addon>
+    
+<addon id="plugin.video.IVUEcreator"
+version="1.0.0"
+name="IVUEcreator"
+provider-name="Team IVUE">
+<requires>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">IVUECreator</summary>
+  <description lang="en">Integrate any plugin installed to IVUE guide easily and quickly</description>
+  <description lang="en">Now includes a fully functioning back up and restore feature</description>
+  <disclaimer lang="en">Modified by TeamJDM from the original code from "Primeaval" </disclaimer>
+  <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
+    
+<addon id="script.ivueguide" name="Ivue TV Guide" version="4.3.1" provider-name="iVue Tv Guide">
+	<requires>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+	<provides>video</provides>
+		<description lang="en">Final Final Final ISH Release of Ivue Guide, simple free and effective, We hope you like it now with category intergration #teamiVue, Huge thanks to all coders out there for getting involved.</description>
+		<disclaimer lang="en">Final Release of Ivue Guide and is forked and based on FTV Guide, Dixie , Ivue ,Primeval, tommy winthers original code, </disclaimer>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/images/screenshot-01.jpg</screenshot>
+            <screenshot>resources/images/screenshot-02.jpg</screenshot>
+            <screenshot>resources/images/screenshot-03.jpg</screenshot>
+        </assets>
 	</extension>
 </addon>
     
