@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.1" provider-name="G-Man">
+<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.2" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Live Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.glive/master/</datadir>
     </dir>   
-    <dir minversion="19.0.0">
-        <info compressed="false">https://raw.githubusercontent.com/centry7/centry7.github.io/main/matrix/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/centry7/centry7.github.io/main/matrix/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/centry7/centry7.github.io/main/matrix/zips/</datadir>
-    </dir>
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>A collection of Free-IPTV Add-ons</summary>
@@ -271,7 +266,7 @@ provider-name="Parrot Developers">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.51.1">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.51.5">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
@@ -284,7 +279,7 @@ provider-name="Parrot Developers">
     <license></license>
     <language></language>
     <website></website>
-    <news>Add Swedish translation. Thanks @Sopor</news>
+    <news>Add Proxy support. Thanks @StepanOrt</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -292,9 +287,9 @@ provider-name="Parrot Developers">
   </extension>
 </addon>
     
-<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.1">
+<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.3">
   <requires>
-    
+
   </requires>
   <extension point="xbmc.python.module" library="resources/modules" />
   <extension point="xbmc.addon.metadata">
@@ -303,7 +298,7 @@ provider-name="Parrot Developers">
     <license></license>
     <language></language>
     <website></website>
-    <news></news>
+    <news>Add win_inet_pton 1.1.0</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
