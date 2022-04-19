@@ -266,7 +266,7 @@ provider-name="Parrot Developers">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.51.5">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.51.8">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
@@ -287,7 +287,7 @@ provider-name="Parrot Developers">
   </extension>
 </addon>
     
-<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.3">
+<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.4">
   <requires>
 
   </requires>
