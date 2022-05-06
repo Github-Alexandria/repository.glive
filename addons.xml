@@ -266,7 +266,7 @@ provider-name="Parrot Developers">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.51.8">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.52.2">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
@@ -279,7 +279,7 @@ provider-name="Parrot Developers">
     <license></license>
     <language></language>
     <website></website>
-    <news>Add Proxy support. Thanks @StepanOrt</news>
+    <news>Improved Proxy support. Polish language thanks to @hevet</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
