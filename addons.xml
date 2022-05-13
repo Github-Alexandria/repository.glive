@@ -241,27 +241,6 @@ provider-name="Parrot Developers">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.52.3">
-  <requires>
-    <import addon="slyguy.dependencies"/>
-  </requires>
-  <extension point="xbmc.service" library="service.py" start="login" />
-  <extension point="xbmc.python.pluginsource" library="default.py" />
-  <extension point="xbmc.python.module" library="resources/modules" />
-  <extension point="xbmc.addon.metadata">
-    <description lang="en">Common code required by all Slyguy add-ons</description>
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news>Improved Proxy support. Polish language thanks to @hevet</news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-    
 <addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.4">
   <requires>
 
@@ -358,6 +337,27 @@ provider-name="Parrot Developers">
     <language></language>
     <website></website>
     <news>Move EPG into Playlist</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+    
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.52.4">
+  <requires>
+    <import addon="slyguy.dependencies"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.python.pluginsource" library="default.py" />
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Common code required by all Slyguy add-ons</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news>Improved Proxy support. Polish language thanks to @hevet</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
