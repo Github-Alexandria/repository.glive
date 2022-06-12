@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.2" provider-name="G-Man">
+<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.3" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Live Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.glive/master/</datadir>
     </dir>   
+    <dir>
+        <info compressed="false">https://WorldLiveTV.github.io/repo/addons.xml</info>
+        <checksum>https://WorldLiveTV.github.io/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://WorldLiveTV.github.io/repo/</datadir>
+        <hashes>true</hashes>
+    </dir>
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>A collection of Free-IPTV Add-ons</summary>
@@ -344,7 +350,7 @@ provider-name="Parrot Developers">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.52.6">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.52.9">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
@@ -357,7 +363,7 @@ provider-name="Parrot Developers">
     <license></license>
     <language></language>
     <website></website>
-    <news>Improved Proxy support. Polish language thanks to @hevet</news>
+    <news>Allow !(not) operator for languages in addon settings</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
