@@ -99,13 +99,12 @@ provider-name="Team IVUE">
 </addon>
     
 <addon id="plugin.video.ustvgo"
-version="1.0.8"
+version="1.0.9"
 name="USTVGO"
-provider-name="Parrot Developers">
+provider-name="Tw1zT3d247's Dev Team">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.requests" version="2.25.1"/>
-  <import addon="inputstream.adaptive" version="2.3.13"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="addon.py">
   <provides>video</provides>
@@ -116,19 +115,9 @@ provider-name="Parrot Developers">
   <disclaimer>Some channels need VPN.</disclaimer>
   <assets>
     <icon>icon.png</icon>
-    <fanart></fanart> 
+    <fanart>fanart.jpg</fanart> 
   </assets>
-  <news>
-    [1.0.0] Initial version!
-    [1.0.1] Added support for bypassing VPN.
-    [1.0.2] Fixed bypass.
-    [1.0.3] Removed bypass, added channels. I'll fix that bypass different day.
-    [1.0.4] Added best encryption.
-    [1.0.5] Added alternative links.
-    [1.0.6] Fixed addon.
-    [1.0.7] Fixed channels. THX to jaygrizzy#7191 for AE.
-    [1.0.8] Fixed channels. 
-  </news>
+  <news>[1.0.0] Initial version!</news>
 </extension>
 </addon>
     
