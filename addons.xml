@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
 <addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.3" provider-name="G-Man">
@@ -333,7 +333,7 @@ provider-name="Tw1zT3d247's Dev Team">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.54.3">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.54.4">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
