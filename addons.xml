@@ -230,25 +230,6 @@ provider-name="Tw1zT3d247's Dev Team">
   </extension>
 </addon>
     
-<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.4">
-  <requires>
-
-  </requires>
-  <extension point="xbmc.python.module" library="resources/modules" />
-  <extension point="xbmc.addon.metadata">
-    <description lang="en">Dependencies required by all Slyguy add-ons</description>
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news>Add win_inet_pton 1.1.0</news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-    
 <addon id="slyguy.plex.live" name="Plex Live" provider-name="SlyGuy" version="0.0.8">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -326,6 +307,22 @@ provider-name="Tw1zT3d247's Dev Team">
     <language></language>
     <website></website>
     <news>Move EPG into Playlist</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+    
+<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.5">
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Dependencies required by all Slyguy add-ons</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news>Bump requests > 2.27.1</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
