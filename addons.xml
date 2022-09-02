@@ -1,7 +1,7 @@
  <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.3" provider-name="G-Man">
+<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.4" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Live Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
@@ -142,6 +142,7 @@ provider-name="Tw1zT3d247's Dev Team">
     <license>GPL-3.0</license>
     <assets>
         <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
     </assets>    
   </extension>
 </addon>
@@ -165,8 +166,8 @@ provider-name="Tw1zT3d247's Dev Team">
     <platform>all</platform>
     <license>GPL-3.0</license>
 	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
 </addon>
@@ -174,6 +175,7 @@ provider-name="Tw1zT3d247's Dev Team">
 <addon id="plugin.video.tvone111" name="tvOne111" version="24+matrix.1" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.pycryptodome"/>
     <import addon="script.module.pyamf"/>
     <import addon="script.module.kodi-six"/>
     <import addon="script.module.future"/>
@@ -191,9 +193,36 @@ provider-name="Tw1zT3d247's Dev Team">
     <platform>all</platform>
     <license>GPL-3.0-only</license>
     <assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-    </assets> 
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+    
+<addon id="plugin.video.tvone112" name="tvOne112" version="1+matrix.1" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.pycryptodome"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.module.kodi-six"/>
+    <import addon="script.module.future"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.routing"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne112</summary>
+    <description lang="en_gb">tvOne112</description>
+    <disclaimer lang="en_gb"/>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
     
@@ -224,8 +253,8 @@ provider-name="Tw1zT3d247's Dev Team">
     <email/>
     <source/>
     <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
 </addon>
