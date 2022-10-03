@@ -408,7 +408,7 @@ provider-name="Tw1zT3d247's Dev Team">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.55.6">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.55.7">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
