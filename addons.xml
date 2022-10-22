@@ -1,18 +1,12 @@
  <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.5" provider-name="G-Man">
+<addon id="repository.glive" name="[COLOR orangered]G-Live Repository[/COLOR]" version="1.0.6" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Live Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.glive/master/</datadir>
     </dir>   
-    <dir>
-        <info compressed="false">https://WorldLiveTV.github.io/repo/addons.xml</info>
-        <checksum>https://WorldLiveTV.github.io/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://WorldLiveTV.github.io/repo/</datadir>
-        <hashes>true</hashes>
-    </dir>
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>A collection of Free-IPTV Add-ons</summary>
@@ -390,6 +384,99 @@ provider-name="Tw1zT3d247's Dev Team">
             <fanart>fanart.jpg</fanart>
      </assets>	
     </extension>
+</addon>
+    
+<addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.7" provider-name="WLTV Group">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.12.4"/>
+		<import addon="script.module.routing" version="0.2.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.5.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="switch.py">
+				<label>30129</label>
+				<visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+			</item>
+			<item library="worldtvonpvr.py">
+				<label>30125</label>
+				<visible>String.Contains(ListItem.FolderPath, "switchlist")</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">World Live TV - for free IPTV channel and radio</summary>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>resources/images/wltv-background.png</fanart>
+			<screenshot>resources/images/screen1.png</screenshot>
+			<screenshot>resources/images/screen2.png</screenshot>
+			<screenshot>resources/images/screen3.png</screenshot>
+		</assets>
+		<news>
+			v 1.2.7
+			- fix Youtube Channel
+			- add vimeo events and video broadcaster
+			- add koper broadcaster
+			- new Mediaset routine
+			v 1.2.6
+			- added playablemediaitem concept
+			- improved playlist manager
+			- fix gzip downloaded list
+			- added new icons
+			v 1.2.5
+			- increase timeout on checkServerOnLine
+			- new internal emergency list
+			- new message and lists offline management if server offline
+			- new setting isBeta and setting visibility based on that
+			- internal list navigation if is enabled
+			- youtube section sort as on youtube web site
+			- libreelec fix unitedradio icon view
+			- libreelec fix log view
+			v 1.2.4
+			- fix xbox issue
+			- fix xmltodict dependency on certain devices
+			- rakutentv
+			- international radios
+			- fix m3u corrupted list parse
+			- fix world tv continent icons
+			- fix encoding on vod management
+			- minor refactoring
+			- fix get static files
+			v 1.2.1-1.2.3
+			- various fixes
+			v 1.2.0
+			- Code refactoring and cleanup
+			- Add User List Maker and management
+			- Add Playlist VOD Manager
+			- Add Search in each UserList
+			- Add Global Search throw all UserList
+			- Add sent to PVR only Live of User PlayList
+			- Various fixes
+			v 1.2.1
+			- Fix Mediaset
+			- New broadcasters
+			- Various minor fix
+			v 1.2.2
+			- Minor code cleanup and fix
+			v 1.2.3
+			- Minor code cleanup and fix
+			- Pass 2 https
+			- M3UParser improvements
+		</news>
+		<description lang="it"></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<license>GNU GPL v3</license>
+		<forum>https://t.me/worldlivetv</forum>
+		<website>https://WorldLiveTV.github.io/</website>
+		<source></source>
+	</extension>
 </addon>
     
 <addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.7">
