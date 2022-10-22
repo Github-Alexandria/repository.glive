@@ -414,9 +414,6 @@ provider-name="Tw1zT3d247's Dev Team">
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>resources/images/wltv-background.png</fanart>
-			<screenshot>resources/images/screen1.png</screenshot>
-			<screenshot>resources/images/screen2.png</screenshot>
-			<screenshot>resources/images/screen3.png</screenshot>
 		</assets>
 		<news>
 			v 1.2.7
