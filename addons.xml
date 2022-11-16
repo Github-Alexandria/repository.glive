@@ -492,8 +492,8 @@ provider-name="Tw1zT3d247's Dev Team">
         <license>Free the People!, Free the World!!</license>
         <platform>all</platform>
         <assets>
-            <icon>resources/images/icon.png</icon>
-            <fanart>resources/images/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
         <news>Check ChangeLog.</news>
     </extension>
