@@ -1,9 +1,6 @@
 # repository.glive
 
-Download the zip direcly: 
-https://mrgsi.github.io/repository.glive-1.0.6.zip
-
-Or enter URL into your Kodi File Manager:
+Download the zip direcly or enter URL into your Kodi File Manager:
 https://mrgsi.github.io/glive
 
 G-Live contains various IPTV add-ons for Kodi
