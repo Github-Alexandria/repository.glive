@@ -412,11 +412,8 @@ provider-name="Tw1zT3d247's Dev Team">
 		<platform>all</platform>
 		<summary lang="en">World Live TV - for free IPTV channel and radio</summary>
 		<assets>
-			<icon>resources/images/wltv-logo.gif</icon>
-			<fanart>resources/images/wltv-background.png</fanart>
-			<screenshot>resources/images/screen1.png</screenshot>
-			<screenshot>resources/images/screen2.png</screenshot>
-			<screenshot>resources/images/screen3.png</screenshot>
+			<icon>icon.gif</icon>
+			<fanart>wltv-background.png</fanart>
 		</assets>
 		<news>
 			v 1.2.9
@@ -493,7 +490,6 @@ provider-name="Tw1zT3d247's Dev Team">
 		<source></source>
 	</extension>
 </addon>
-
     
 <addon id="plugin.video.json_iptv" version="1.0.05" name="Json IPTV" provider-name="JewBMX">
     <requires>
