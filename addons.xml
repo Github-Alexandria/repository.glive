@@ -529,7 +529,7 @@ provider-name="Tw1zT3d247's Dev Team">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.56.8">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.57.2">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
