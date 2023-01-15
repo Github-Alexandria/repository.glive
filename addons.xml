@@ -252,7 +252,7 @@ provider-name="Tw1zT3d247's Dev Team">
   </extension>
 </addon>
     
-<addon id="slyguy.plex.live" name="Plex Live" provider-name="SlyGuy" version="0.0.8">
+<addon id="slyguy.plex.live" name="Plex Live" provider-name="SlyGuy" version="0.0.9">
   <requires>
     <import addon="script.module.slyguy"/>
   </requires>
@@ -265,7 +265,7 @@ provider-name="Tw1zT3d247's Dev Team">
     <license></license>
     <language></language>
     <website></website>
-    <news>Move EPG into Playlist</news>
+    <news>add My Channels</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -529,7 +529,7 @@ provider-name="Tw1zT3d247's Dev Team">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.57.2">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.57.5">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
