@@ -92,29 +92,6 @@ provider-name="Team IVUE">
 	</extension>
 </addon>
     
-<addon id="plugin.video.ustvgo"
-version="1.0.9"
-name="USTVGO"
-provider-name="Tw1zT3d247's Dev Team">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.requests" version="2.25.1"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="addon.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary>USTVGO Channels in KODI.</summary>
-  <description>USTVGO Channels in KODI.</description>
-  <disclaimer>Some channels need VPN.</disclaimer>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart> 
-  </assets>
-  <news>[1.0.0] Initial version!</news>
-</extension>
-</addon>
-    
 <addon id="plugin.video.tvone" name="tvOne" version="26+matrix.1" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
