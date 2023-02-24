@@ -506,7 +506,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.59.3">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.59.7">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
