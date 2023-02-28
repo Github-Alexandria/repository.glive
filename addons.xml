@@ -32,8 +32,6 @@
 		<platform>all</platform>
 		<language>en</language>
 		<license>GPL-2.0-or-later</license>
-		<source></source>
-		<news>The IPTV-ORG source was removed from Github</news>
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
