@@ -392,7 +392,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.59.9">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.60.1">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
