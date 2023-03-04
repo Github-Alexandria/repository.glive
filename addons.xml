@@ -241,7 +241,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="slyguy.pluto.tv.provider" name="Pluto TV" provider-name="SlyGuy" version="0.5.6">
+<addon id="slyguy.pluto.tv.provider" name="Pluto TV" provider-name="SlyGuy" version="0.5.8">
   <requires>
     <import addon="script.module.slyguy"/>
   </requires>
@@ -254,7 +254,7 @@ provider-name="Team IVUE">
     <license></license>
     <language></language>
     <website></website>
-    <news>Fix Adverts</news>
+    <news>Channel fanart</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -353,7 +353,7 @@ provider-name="Team IVUE">
     </extension>
 </addon>
     
-<addon id="plugin.video.json_iptv" version="1.0.07" name="Json IPTV" provider-name="JewBMX">
+<addon id="plugin.video.json_iptv" version="1.0.08" name="Json IPTV" provider-name="JewBMX">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -392,7 +392,7 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.60.1">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.60.7">
   <requires>
     <import addon="slyguy.dependencies"/>
   </requires>
