@@ -241,27 +241,6 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="slyguy.pluto.tv.provider" name="Pluto TV" provider-name="SlyGuy" version="0.6.0">
-  <requires>
-    <import addon="script.module.slyguy"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <description lang="en">Watch all your favourite Pluto TV channels live anywhere. No subscription required.</description>
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news>Channel fanart</news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-    
 <addon id="slyguy.samsung.tv.plus" name="Samsung TV Plus" provider-name="SlyGuy" version="0.1.8">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -393,9 +372,30 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.61.1">
+<addon id="slyguy.pluto.tv.provider" name="Pluto TV" provider-name="SlyGuy" version="0.6.1">
   <requires>
-    <import addon="slyguy.dependencies" version="0.0.8"/>
+    <import addon="script.module.slyguy"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch all your favourite Pluto TV channels live anywhere. No subscription required.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news>Channel fanart</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+    
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.61.4">
+  <requires>
+    <import addon="slyguy.dependencies"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.python.pluginsource" library="default.py" />
