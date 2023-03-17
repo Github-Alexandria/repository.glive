@@ -220,9 +220,9 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="slyguy.plex.live" name="Plex Live" provider-name="SlyGuy" version="0.0.9">
+<addon id="slyguy.plex.live" name="Plex Live" provider-name="SlyGuy" version="0.0.10">
   <requires>
-    <import addon="script.module.slyguy"/>
+    <import addon="script.module.slyguy" version="0.63.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
     <provides>video</provides>
@@ -241,9 +241,9 @@ provider-name="Team IVUE">
   </extension>
 </addon>
 
-<addon id="slyguy.samsung.tv.plus" name="Samsung TV Plus" provider-name="SlyGuy" version="0.1.8">
+<addon id="slyguy.samsung.tv.plus" name="Samsung TV Plus" provider-name="SlyGuy" version="0.1.9">
   <requires>
-    <import addon="script.module.slyguy"/>
+    <import addon="script.module.slyguy" version="0.63.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
     <provides>video</provides>
@@ -262,9 +262,9 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="slyguy.stirr.provider" name="STIRR" provider-name="SlyGuy" version="0.2.2">
+<addon id="slyguy.stirr.provider" name="STIRR" provider-name="SlyGuy" version="0.2.3">
   <requires>
-    <import addon="script.module.slyguy"/>
+    <import addon="script.module.slyguy" version="0.63.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
     <provides>video</provides>
@@ -355,7 +355,7 @@ provider-name="Team IVUE">
     </extension>
 </addon>
     
-<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.8">
+<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.12">
   <requires></requires>
   <extension point="xbmc.python.module" library="resources/modules" />
   <extension point="xbmc.addon.metadata">
@@ -372,9 +372,9 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="slyguy.pluto.tv.provider" name="Pluto TV" provider-name="SlyGuy" version="0.6.1">
+<addon id="slyguy.pluto.tv.provider" name="Pluto TV" provider-name="SlyGuy" version="0.6.2">
   <requires>
-    <import addon="script.module.slyguy"/>
+    <import addon="script.module.slyguy" version="0.63.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
     <provides>video</provides>
@@ -393,9 +393,9 @@ provider-name="Team IVUE">
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.62.7">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.63.3">
   <requires>
-    <import addon="slyguy.dependencies"/>
+    <import addon="slyguy.dependencies" version="0.0.12"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.python.pluginsource" library="default.py" />
