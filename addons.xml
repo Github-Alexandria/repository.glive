@@ -355,7 +355,7 @@
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.64.6">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.64.8">
   <requires>
     <import addon="slyguy.dependencies" version="0.0.8"/>
   </requires>
