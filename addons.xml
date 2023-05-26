@@ -294,7 +294,7 @@
     </extension>
 </addon>
     
-<addon id="plugin.video.json_iptv" version="1.0.08" name="Json IPTV" provider-name="JewBMX">
+<addon id="plugin.video.json_iptv" version="1.0.09" name="Json IPTV" provider-name="JewBMX">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -355,7 +355,7 @@
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.64.9">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.65.0">
   <requires>
     <import addon="slyguy.dependencies" version="0.0.8"/>
   </requires>
