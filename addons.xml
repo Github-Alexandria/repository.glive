@@ -379,7 +379,7 @@
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.65.7">
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.65.8">
   <requires>
     <import addon="slyguy.dependencies" version="0.0.8"/>
   </requires>
