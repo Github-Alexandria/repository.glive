@@ -343,23 +343,6 @@
   </extension>
 </addon>
 
-<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.12">
-  <requires></requires>
-  <extension point="xbmc.python.module" library="resources/modules" />
-  <extension point="xbmc.addon.metadata">
-    <description lang="en">Dependencies required by all Slyguy add-ons</description>
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news>Add dnspython 1.16.0</news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-    
 <addon id="slyguy.pluto.tv.provider" name="Pluto TV" provider-name="SlyGuy" version="0.6.2">
   <requires>
     <import addon="script.module.slyguy" version="0.63.1"/>
@@ -381,7 +364,24 @@
   </extension>
 </addon>
     
-<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.68.2">
+<addon id="slyguy.dependencies" name="SlyGuy Dependencies" provider-name="SlyGuy" version="0.0.13">
+  <requires></requires>
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Dependencies required by all Slyguy add-ons</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news>Add googletrans 4.0.0-rc1</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+    
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.68.4">
   <requires>
     <import addon="slyguy.dependencies" version="0.0.8"/>
   </requires>
