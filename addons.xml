@@ -278,4 +278,26 @@
     </extension>
 </addon>
     
+<addon id="plugin.video.daddylivehd" name="DaddyLiveHD" version="1.0.0" provider-name="G-Man">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper" />
+        <import addon="script.module.six"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Live channels and sports events</summary>
+        <description lang="en">Live Streamed Channels and Scheduled Sporting Events.</description>
+        <disclaimer lang="en">daddylivehd.com</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+    
 </addons>
